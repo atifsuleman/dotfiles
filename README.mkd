@@ -18,5 +18,6 @@ Switch to the '~/dotfiles' directory, and fetch submodules:
 	git submodule update
 
 Install [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) fonts:
+
 	cd ~
 	fc-cache -vf
