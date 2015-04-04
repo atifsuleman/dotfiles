@@ -1,0 +1,22 @@
+Installation:
+
+	git clone git://github.com/atifsuleman/dotfiles.git ~/dotfiles
+
+Create symlinks:
+
+	ln -s ~/dotfiles/.vim ~/.vim
+	ln -s ~/dotfiles/.vimrc ~/.vimrc
+	ln -s ~/dotfiles/.bashrc ~/.bashrc
+	ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+	ln -s ~/dotfiles/.Xresources ~/.Xresources 
+	ln -s ~/dotfiles/.fonts ~/.fonts
+
+Switch to the '~/dotfiles' directory, and fetch submodules:
+
+	cd ~/dotfiles
+	git submodule init
+	git submodule update
+
+Install [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) fonts:
+	cd ~
+	fc-cache -vf
