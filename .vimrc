@@ -62,6 +62,7 @@ if &t_Co > 16 || has("gui_running")
   syntax enable
   set background=light
   colorscheme solarized
+  call togglebg#map("<F5>")
 endif
 
 if has("gui_running")
