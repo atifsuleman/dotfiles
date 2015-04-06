@@ -11,6 +11,7 @@ Create symlinks:
 	ln -s ~/dotfiles/.Xresources ~/.Xresources 
 	ln -s ~/dotfiles/.fonts ~/.fonts
 	ln -s ~/dotfiles/.dircolors ~/.dircolors
+	ln -s ~/dotfiles/.bash_aliases ~/.bash_aliases
 
 Switch to the '~/dotfiles' directory, and fetch submodules:
 
