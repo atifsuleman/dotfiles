@@ -10,6 +10,7 @@ Create symlinks:
 	ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 	ln -s ~/dotfiles/.Xresources ~/.Xresources 
 	ln -s ~/dotfiles/.fonts ~/.fonts
+	ln -s ~/dotfiles/.dircolors ~/.dircolors
 
 Switch to the '~/dotfiles' directory, and fetch submodules:
 
