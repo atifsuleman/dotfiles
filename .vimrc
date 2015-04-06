@@ -65,7 +65,7 @@ if &t_Co > 16 || has("gui_running")
 endif
 
 if has("gui_running")
-  set guifont=Source\ Code\ Pro\ Semi-Bold\ 10
+  set guifont=Source\ Code\ Pro\ Semi-Bold\ 11
 endif
   
 " Only do this part when compiled with support for autocommands.
