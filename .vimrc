@@ -65,10 +65,6 @@ if &t_Co > 16 || has("gui_running")
   call togglebg#map("<F5>")
 endif
 
-if has("gui_running")
-  set guifont=Source\ Code\ Pro\ Semi-Bold\ 11
-endif
-  
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
 
