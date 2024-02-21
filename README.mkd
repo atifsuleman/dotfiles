@@ -8,7 +8,6 @@ Create symlinks:
 	ln -s ~/dotfiles/.vimrc ~/.vimrc
 	ln -s ~/dotfiles/.bashrc ~/.bashrc
 	ln -s ~/dotfiles/.gitconfig ~/.gitconfig
-	ln -s ~/dotfiles/.Xresources ~/.Xresources 
 	ln -s ~/dotfiles/.fonts ~/.fonts
 	ln -s ~/dotfiles/.dircolors ~/.dircolors
 	ln -s ~/dotfiles/.bash_aliases ~/.bash_aliases
