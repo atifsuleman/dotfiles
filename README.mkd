@@ -9,7 +9,6 @@ Create symlinks:
 	ln -s ~/dotfiles/.bashrc ~/.bashrc
 	ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 	ln -s ~/dotfiles/.fonts ~/.fonts
-	ln -s ~/dotfiles/.dircolors ~/.dircolors
 	ln -s ~/dotfiles/.bash_aliases ~/.bash_aliases
 	ln -s ~/dotfiles/.rbenv ~/.rbenv
 	mkdir ~/dotfiles/.rbenv/plugins
