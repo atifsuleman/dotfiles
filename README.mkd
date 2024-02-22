@@ -8,13 +8,3 @@ Create symlinks:
 	ln -s ~/dotfiles/.bashrc ~/.bashrc
 	ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 	ln -s ~/dotfiles/.bash_aliases ~/.bash_aliases
-	ln -s ~/dotfiles/.rbenv ~/.rbenv
-	mkdir ~/dotfiles/.rbenv/plugins
-	ln -s ~/dotfiles/ruby-build ~/dotfiles/.rbenv/plugins/ruby-build 
-
-Switch to the '~/dotfiles' directory, and fetch submodules:
-
-	cd ~/dotfiles
-	git submodule init
-	git submodule update
-
