@@ -2,5 +2,3 @@ Installation:
 
 	git clone git://github.com/atifsuleman/dotfiles.git ~/dotfiles
 
-Create symlinks:
-
