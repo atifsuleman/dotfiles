@@ -1,2 +1,8 @@
 [color]
 	ui = auto
+[core]
+       editor = vi
+[alias]
+       los = log --stat --format=fuller
+       last = los -1
+       which = branch --show-current
