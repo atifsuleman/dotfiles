@@ -1,5 +1,5 @@
 Installation via stow:
 
-	git clone git://github.com/atifsuleman/dotfiles.git ~/dotfiles
+	git clone https://github.com/atifsuleman/dotfiles.git ~/dotfiles
 	cd ~/dotfiles
 	stow vim bash git
