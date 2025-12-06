@@ -1,6 +1,5 @@
-Installation:
+Installation via stow:
 
 	git clone git://github.com/atifsuleman/dotfiles.git ~/dotfiles
 	cd ~/dotfiles
-	chmod u+x setup
-	./setup
+	stow vim bash git
