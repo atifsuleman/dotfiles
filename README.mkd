@@ -53,7 +53,7 @@ To pull updates from this repo:
 
 ```bash
 cd ~/dotfiles
-git pull --rebase
+git pull
 ```
 
 If you change files in the repo locally and want to update the symlinks, re-run `stow` for the modified package:
