@@ -1,5 +1,72 @@
-Installation via stow:
+# dotfiles
 
-	git clone https://github.com/atifsuleman/dotfiles.git ~/dotfiles
-	cd ~/dotfiles
-	stow vim bash git tmux nvim
+A small collection of configuration files and snippets I use to set up a development environment quickly.
+
+## Overview
+
+This repository contains my personal dotfiles for shell, editor, and terminal tooling. The configs are arranged so you can selectively apply them using GNU `stow`.
+
+## Requirements
+
+- `git`
+- `stow` (GNU Stow)
+
+On most Linux distributions you can install `stow` from the package manager (e.g. `sudo apt install stow`).
+
+## Quick install
+
+Clone the repository and use `stow` to symlink the packages you want into your home directory:
+
+```bash
+git clone https://github.com/atifsuleman/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+# Example: enable vim, bash, git, tmux and nvim configs
+stow vim bash git tmux nvim
+```
+
+To remove the symlinks created by `stow` for a package:
+
+```bash
+cd ~/dotfiles
+stow -D nvim
+```
+
+## Repository structure
+
+- `bash/`    : Bash configuration (aliases, profile, prompts)
+- `git/`     : Git config and templates
+- `nvim/`    : Neovim configuration (`.config/nvim`) — Lua based
+- `vim/`     : Vim configuration (`.vimrc`, plugins)
+- `tmux/`    : Tmux configuration and scripts
+
+Files installed by `stow` are symlinked into your home directory (or `.config`) so the original files stay in this repository for version control.
+
+## Notes / Customization
+
+- Review each folder and adjust settings before enabling them. Some configs assume certain plugins or programs are installed (for example, Neovim plugins).
+- For Neovim, this repo places config under `nvim/.config/nvim` — after stow, Neovim will read `~/.config/nvim`.
+- If you use a different shell (zsh/fish), adapt or skip the `bash/` package.
+
+## Updating the dotfiles
+
+To pull updates from this repo:
+
+```bash
+cd ~/dotfiles
+git pull --rebase
+```
+
+If you change files in the repo locally and want to update the symlinks, re-run `stow` for the modified package:
+
+```bash
+cd ~/dotfiles
+stow -R nvim
+```
+
+## Contributing
+
+This repo is primarily personal, but feel free to open issues or submit PRs if you have suggestions.
+
+## License
+
+MIT — [LICENSE](LICENSE)
