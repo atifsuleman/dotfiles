@@ -11,3 +11,5 @@ insert_final_newline = true
 [*.md,*.mkd]
 trim_trailing_whitespace = false
 
+[*.lua]
+indent_size = 2
