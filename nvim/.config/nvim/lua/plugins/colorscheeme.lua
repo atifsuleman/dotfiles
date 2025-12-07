@@ -1,23 +1,4 @@
 return {
-  {
-    "catppuccin/nvim",
-    name = "catppuccin",
-    lazy = true,
-  },
-  {
-    "rebelot/kanagawa.nvim",
-    lazy = true,
-  },
-  {
-    "rose-pine/neovim",
-    name = "rose-pine",
-    lazy = true,
-  },
-  -- solarized light theme
-  {
-    "ishan9299/nvim-solarized-lua",
-    lazy = true,
-  },
   -- the colorscheme should be available when starting Neovim
   {
     "folke/tokyonight.nvim",
