@@ -8,3 +8,8 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=50000
 HISTFILESIZE=50000
+
+# alias definitions for bash
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
